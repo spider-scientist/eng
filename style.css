@@ -1,0 +1,117 @@
+html,body{margin:0;
+    padding:0;
+    font-size: small;
+}
+body{font-family: monospace,Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+.upper{background: #f7931a;
+     padding: 5px 5px 10px 5px;
+     margin-bottom: 0;
+}
+.logo{max-width: 100%;
+      display: block;
+      margin-left: auto;
+    margin-right: auto;}
+
+select{max-width: 70%;
+      background: transparent;
+      color: #ffffff;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      top: -10px;
+      padding: 10px;
+    border: 1px solid #6B6666;
+    border-radius: 15px;
+    outline: none;
+    text-align: center;
+}
+option{background: #cabcbc;}
+button{outline: none;
+       }
+.mu, .ml{
+    background: transparent;
+    border: 1px solid #6B6666;
+    border-radius: 4px;
+    padding: 10px;
+    }
+.mu{float: right;
+    }
+.donate{padding: .3em;
+       background: #f7931a;
+       border: 1px solid #ffffff;
+       color: #ffffff;
+       border-radius: 4px;
+       float: right;
+       position: relative;
+       top:3px;
+    }
+.mu:hover, .ml:hover, a:hover{color: #ffffff;}
+li a:hover{color: #ffffff;}
+.rot{transform: rotateX(150deg);}
+a{text-decoration: none;}
+.info{padding: 5px;
+     text-align: center;
+    background: #999999;
+    margin-bottom: 0;
+    display: none;
+    color: #f7931a;
+    }
+h3{color: #ffffff;}
+
+.nav{background: #999999;
+   margin-top: 0;
+   padding: 10px;
+   max-width: 50%;
+   position: absolute;
+   display: none;
+}
+.nav a{color: black;}
+ul{list-style-type: none;
+  border-left: 1px solid #ffffff;
+  background: #cabcbc;
+}
+li{padding: 5px;}
+
+#answer{font-size: .8em;
+       padding: 5px;
+    color: #cabcbc;}
+#render{width: 100%;
+       display: block;}
+
+.show{display: block;}
+
+.dis{display: none;}
+
+.cls{float: right;
+    color: #cabcbc;
+    border-radius: 4pxs;}
+/* temporary */
+@keyframes timg {
+    0%{transform: rotate(1deg);}
+ 
+    100%{transform: rotate(150deg);}
+}
+.reder{animation: timg 1s infinite;
+        transform: rotate(150deg);
+   }
+.temp1d{float: right;
+    position: relative;
+   bottom: 5.5em;
+    right: 3em;
+text-align: center;}
+.temp1{border: none;
+    outline: none;
+    background: transparent;
+border-bottom: 1px solid #999999;
+}
+
+/* end temporary */
+@media screen and (min-width: 970px)
+{
+body{background-image: url(img/aa6.jpg);
+}
+}
