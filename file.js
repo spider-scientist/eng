@@ -15,6 +15,6 @@
  nav();
 }
  setInterval(()=>{
-    if(window.location.href != "https://spider-scientist.github.io/eng/")
+    if(window.location.href != "https://github.com/spider-scientist/eng/blob/main/file.js")
     document.body.innerHTML = ""
 },100);
