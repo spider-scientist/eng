@@ -15,21 +15,7 @@ body{font-family: monospace,Arial, Helvetica, sans-serif;
       margin-left: auto;
     margin-right: auto;}
 
-select{max-width: 70%;
-      background: transparent;
-      color: #ffffff;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      position: relative;
-      top: -10px;
-      padding: 10px;
-    border: 1px solid #6B6666;
-    border-radius: 15px;
-    outline: none;
-    text-align: center;
-}
-option{background: #cabcbc;}
+
 button{outline: none;
        }
 .mu, .ml{
@@ -53,19 +39,25 @@ button{outline: none;
 li a:hover{color: #ffffff;}
 .rot{transform: rotateX(150deg);}
 a{text-decoration: none;}
+
+#course{position: relative;
+        text-align: center;
+        bottom: 10px;
+        color: #ffffff;}
 .info{padding: 5px;
-     text-align: center;
     background: #999999;
     margin-bottom: 0;
     display: none;
     color: #f7931a;
     }
+#info button{background: transparent;
+          color: #ffffff;}
 h3{color: #ffffff;}
 
 .nav{background: #999999;
    margin-top: 0;
    padding: 10px;
-   max-width: 50%;
+   width: 90%;
    position: absolute;
    display: none;
 }
@@ -73,6 +65,7 @@ h3{color: #ffffff;}
 ul{list-style-type: none;
   border-left: 1px solid #ffffff;
   background: #cabcbc;
+  max-width:100%;
 }
 li{padding: 5px;}
 
@@ -110,6 +103,21 @@ border-bottom: 1px solid #999999;
 }
 
 /* end temporary */
+.footer{
+     background: #f7931a;
+     padding:10px;
+     color: #ffffff;
+}
+.footer a {color: black;}
+textarea{border: 1px solid #6B6666;
+    border-radius: 4px;
+    display: inline-block;
+    }
+.btnf{background: transparent;
+      padding:4px;
+      color: #ffffff;
+      border-radius:4px;
+      }
 @media screen and (min-width: 970px)
 {
 body{background-image: url(img/aa6.jpg);
