@@ -1,4 +1,12 @@
-
+ window.onload = () =>
+ {
+   if(localStorage.lastlesson)
+   document.images["render"].src = localStorage.lastlesson;
+ }
+  window.addEventListener('beforeunload',() => {
+   var last = document.images["render"].src;
+   localStorage.setItem("lastlesson",last);
+ });
  function nav(){
     var x = document.getElementById('nav').classList;
     var y = document.getElementById('ml').classList;
@@ -14,7 +22,12 @@
  function dnt(){document.images["render"].src = 'about.png';
  nav();
 }
- /* setInterval(()=>{
+/*  setInterval(() =>{
     if(window.location.href != "https://spider-scientist.github.io/eng")
-    document.body.innerHTML = ""
-},100); */
+    document.body.innerHTML = "" 
+    if(document.images["render"].src == "#.png")
+    {
+     console.log("yes");
+     document.images["render"].src == "no.png";
+     } 
+},1000); */

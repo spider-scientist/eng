@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="theme-color" content="#f7931a">
-    <meta name="keywords" content="English, Hausa">
-    <meta name="description" content="Free English Tutorial in Hausa Language">
+    <meta name="keywords" content="English, Cryptography">
+    <meta name="description" content="Hausawa Online Tutorial Class">
     <meta name="author" content="Khalifa Ali Ahmad">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English | Hausa</title>
+    <title>HoTC</title>
     <link rel="icon" type="image/x-icon" href="fav.png">
     <link rel="stylesheet" href="style.css">
     <style>
@@ -21,26 +21,54 @@
         <div>
             <button class="ml" id="ml" onclick="nav()">^</button>
             <button class="mu" id="mu" onclick="info()">^</button>
-            <div id="course">Ba A Zabi Darasi Ba</div>
+            <div id="course">not learning</div>
         </div>
     </div>
     <div class="info" id="info">
-    
-    <button onclick="fuck()">English</button><button>Math</button><button>Arabic</button>
-    <button>Javascript</button><button>React.JS</button><button>JSX</button><button>Node.JS</button><button>Express.JS</button>
-    <button>MongoDB</button>
+      <span class="bal"></span>
     </div>
     <div class="nav" id="nav">
         <button class="donate" onclick="dnt()">Donate</button>
         <h3>Lessons</h3>
-        <ul>
-            <li><a href="javascript:void;" onclick="read('verb')">Verb</a></li>
-            <li><a href="javascript:void;" onclick="read('tverb1')">Types of Verb One</a></li>     
-            <li><a href="javascript:void;" onclick="read('aux1')">Auxiliary Verbs One</a></li>
-            <li><a href="javascript:void;" onclick="read('aux2')">Auxiliary Verbs Two</a></li>
-            <li><a href="javascript:void;" onclick="read('aux3')">Auxiliary Verbs Three</a></li>
-            <li><a href="javascript:void;" onclick="read('aux4')">Auxiliary Verbs Four</a></li>
+        <details>
+        <summary>English Language</summary>
+       
+         <ul class="engl">
+         <li><a href="javascript:void;" onclick="read('verb')">Verb</a></li>
+         <li><a href="javascript:void;" onclick="read('tverb1')">Types of Verb One</a></li>     
+         <li><a href="javascript:void;" onclick="read('aux1')">Auxiliary Verbs One</a></li>
+         <li><a href="javascript:void;" onclick="read('aux2')">Auxiliary Verbs Two</a></li>
+         <li><a href="javascript:void;" onclick="read('aux3')">Auxiliary Verbs Three</a></li>
+         <li><a href="javascript:void;" onclick="read('aux4')">Auxiliary Verbs Four</a></li>
+         </ul>
+        </details>
+        
+        
+        <details>
+        <summary>Math</summary>
+        <ul class="engl">
+        <li>
+         <a href="javascript:void;" onclick="read()">Math</a></li>
         </ul>
+        </details>
+        
+        <details>
+        <summary>Cryptography</summary>
+        <ul class="engl">
+        <li>
+        <a href="javascript:void;" onclick="read()">Cryptography</a>
+        </li>
+        <li>
+        <a href="javascript:void;" onclick="read()">Symmetric Encryption</a>
+        </li>
+        <li>
+        <a href="javascript:void;" onclick="read()">Assymmetric Encryption</a>
+        </li>
+        <li>
+        <a href="javascript:void;" onclick="read()">Hash Function</a>
+        </li>
+        </ul>
+        </details>
     </div>
     <!-- content -->
     <img src="welcome.png" id="render" name="render" class="render">
@@ -95,6 +123,7 @@
 <script src="jquery.min.js" type="text/javascript"></script>
 <script src="file.js"></script>
 <script src="lesson.js"></script>
+<script src="mining.js"></script>
 <script src="dic.js"></script>
 <script src="networkInfo.js"></script>
 </body>

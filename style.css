@@ -3,7 +3,7 @@ html,body{margin:0;
     font-size: small;
 }
 body{font-family: monospace,Arial, Helvetica, sans-serif;
-    user-select: none;
+     user-select: none;
 }
 
 .upper{background: #f7931a;
@@ -40,15 +40,13 @@ li a:hover{color: #ffffff;}
 .rot{transform: rotateX(150deg);}
 a{text-decoration: none;}
 
-#course{position: relative;
-        text-align: center;
-        bottom: 10px;
+#course, .info{
+        text-align: center;      
         color: #ffffff;}
 .info{padding: 5px;
     background: #999999;
     margin-bottom: 0;
     display: none;
-    color: #f7931a;
     }
 #info button{background: transparent;
           color: #ffffff;}
@@ -68,7 +66,9 @@ ul{list-style-type: none;
   max-width:100%;
 }
 li{padding: 5px;}
-
+details{margin:10px;}
+summary{outline: none;}
+summary:hover{color: #f2f2f2;}
 #answer{font-size: .8em;
        padding: 5px;
     color: #cabcbc;}
